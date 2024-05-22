@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Silkscreen:wght@400;700&display=swap');
+body {
+    font-family: "Jersey 10", sans-serif;
+    background-image: linear-gradient(#FF76CE, #94FFD8);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aquamarine;
+}
+
+.container {
+    background-color: #A3D8FF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(20, 181, 230);
+    color: white;
+    padding: 1rem;
+}
+
+.profile-card {
+    padding: 1rem;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-top: 1rem;
+    color: #FF76CE;
+
+}
+
+.description {
+    margin-top: 1rem;
+    color: #FDFFC2;
+
+}
+.actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    
+}
+
+.button {
+    background-color: #94FFD8;
+    border: none;
+    color: #A3D8FF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.like-button {
+        min-width: 130px;
+        height: 40px;
+        color: rgb(97, 97, 97);
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        box-shadow: 5px 5px 5px rgb(95, 94, 94);
+        border: none;
+        background: rgba(0, 255, 33, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      }
+
+      .simpleButtonGreenGlass:hover {
+        filter: opacity(0.5);
+        box-shadow: 1px 1px 1px rgb(95, 94, 94);
+      }
+
+.like-button:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+
+.dislike-button {
+        min-width: 130px;
+        height: 40px;
+        color: rgb(97, 97, 97);
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        box-shadow: 5px 5px 5px rgb(95, 94, 94);
+        border: none;
+        background: rgba(172, 18, 0, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      }
+
+.dislike-button:hover {
+    background-color: #e53935;
+    cursor: pointer;
+
+}
